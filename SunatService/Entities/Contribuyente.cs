@@ -133,17 +133,30 @@ namespace SunatService.Entities
 
         public Contribuyente()
         {
+            Ruc = "-";
+            RazonSocial = "-";
+            NombreComercial = "-";
+            Tipo = "-";
+            Estado = "-";
+            Condicion = "-";
+            FechaInscripcion = "-";
+            FechaInicioActividades = "-";
             Direccion = "-";
-            Departamento = "-";
             Distrito = "-";
             Provincia = "-";
-            NombreComercial = "-";
-            ObligadoEmitirCPE = "-";
+            Departamento = "-";
+            ProfesionOficio = "-";
+            SisEmisionComprobante = "-";
+            SisContabilidad = "-";
+            ActComercioExterior = "-";
             ActividadesEconomicas = new List<string>();
             ComprobantesPagoAutImpresion = new List<string>();
+            ObligadoEmitirCPE = "-";
             SisEmisionElectronica = new List<string>();
-            Padrones = new List<string>();
+            EmisorElectronicoDesde = "-";
             ComprobantesElectronicos = new List<string>();
+            AfiliadoPLEDesde = "-";
+            Padrones = new List<string>();
         }
     }
 }

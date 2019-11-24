@@ -29,9 +29,7 @@ namespace WpfApp1
 
         private async void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            string prueba = await ConsultaRuc.ConsultaContribuyente("20563223457");
-
-            var prue = prueba;
+            string prueba = await ConsultaRuc.ConsultaContribuyente("20563223457",3);
         }
     }
 }

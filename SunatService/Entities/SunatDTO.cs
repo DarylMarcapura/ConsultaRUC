@@ -11,11 +11,11 @@ namespace SunatService.Entities
         /// <summary>
         /// Status 1 consulta correcta, status 0 consulta incorrecta
         /// </summary>
-        public int status { get; set; }
+        public int status { get; set; } = 0;
         /// <summary>
         /// Mensaje de consulta
         /// </summary>
-        public string mensaje { get; set; }
+        public string mensaje { get; set; } = "Vuelva a intentar, no pudimos conectar con SUNAT.";
 
         /// <summary>
         /// Codigo Captcha resuelto
@@ -25,7 +25,7 @@ namespace SunatService.Entities
         /// <summary>
         /// Contribuyente DTO
         /// </summary>
-        public Contribuyente contribuyente { get; set; }
+        public Contribuyente contribuyente { get; set; } = null;
 
     }
 }
