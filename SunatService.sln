@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SunatService", "SunatService\SunatService.csproj", "{98725AA6-35EA-4300-B3E1-368BC6B59F96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{9B11B383-2A01-4EC0-86D8-13F91DF78C69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{98725AA6-35EA-4300-B3E1-368BC6B59F96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98725AA6-35EA-4300-B3E1-368BC6B59F96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98725AA6-35EA-4300-B3E1-368BC6B59F96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B11B383-2A01-4EC0-86D8-13F91DF78C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B11B383-2A01-4EC0-86D8-13F91DF78C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B11B383-2A01-4EC0-86D8-13F91DF78C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B11B383-2A01-4EC0-86D8-13F91DF78C69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
